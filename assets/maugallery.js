@@ -156,7 +156,6 @@
       prev =
         imagesCollection[index-1] ||
         imagesCollection[imagesCollection.length - 1];
-        console.log('Previous image:', $(prev).attr("src"));
       $(".lightboxImage").attr("src", $(prev).attr("src"));
     },
     nextImage() {
